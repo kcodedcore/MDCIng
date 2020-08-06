@@ -1,7 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@font-face {
+  font-family: Seravek;
+  src: url(../fonts/Seravek.ttc);
+  font-weight: normal;
+}
 figure.snip1477 {
-  font-family: 'Raleway', Arial, sans-serif;
+  /* font-family: 'Raleway', Arial, sans-serif; */
+  font-family: Seravek;
   position: relative;
   overflow: hidden;
   margin: 10px;
