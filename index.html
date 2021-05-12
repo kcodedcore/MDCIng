@@ -785,19 +785,14 @@
     <script src="./assets/js/services.js"></script>
 
     <script type="text/javascript">
+     $(window).on('load', function () {
+      $('#preloader-active').delay(450).fadeOut('slow');
+      $('body').delay(450).css({
+        'overflow': 'visible'
+      });
+    });
         $(document).ready(function () {
-            // $('#Send').on('click', function () {
-
-            //     var msg = $('#mensaje').val();
-            //     var nom = $('#nombre').val();
-            //     var mail = $('#correo').val();
-            //     var motivo = $('#motivo').val();
-
-            //     if (msg.length > 20 && nom.length >= 2 && motivo.length >= 4 && mail != '')
-            //         window.location = 'mailto:' + mail + '?subject=' + motivo + '&body=' + ' De: ' + nom + ' Mensaje: '+ msg ;
-
-
-            // });
+         
         });
     </script>
 
